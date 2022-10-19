@@ -1,8 +1,8 @@
 #  4orc
 
-Lots of tiny repositories. Usually, in each directory:
+Lots of tiny repositories. Usually, in each directory there are at least two files (e.g.) `nbc.lua` and `4nbc.lua` where:
 
-- there is a main file containing a test suite; e.g. `nbc.lua`;
-- and all the supprting code in `4nbc.lua`.
+- `nbc.lua`  offers a command-line interface and  a test suite;
+- `4nbc.lua` holding  all the underlying  code.
 
 One repository [/etc](https://github.com/4orc/etc) is special and contains the support and control code for everything else.
